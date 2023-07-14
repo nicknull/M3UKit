@@ -161,6 +161,7 @@ public struct Playlist: Equatable, Hashable, Codable {
 
     /// Media URL.
     public var url: URL
+    public var id:String = UUID().uuidString
   }
 
   /// Create a playlist.
